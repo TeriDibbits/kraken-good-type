@@ -1,0 +1,71 @@
+html {
+	box-sizing: border-box;
+  font-family: "Libre Baskerville" serif;
+}
+
+h1 {
+  font-family: "Libre Baskerville" serif;
+  color: #fff;
+  font-weight: normal;
+}
+
+article {
+  max-width: 47em;
+}
+
+body {
+  margin: 1.5rem;
+}
+
+img {
+  border: 1px solid;
+  border-color: #259f95;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 47em;
+}
+
+.chapter-num {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.colon {
+  font-size: 1.5rem;
+  color: #259f95;
+}
+
+p:first-line {
+  font-style: italic;
+  color: #1e7c74;
+}
+
+p {
+  font-size: 1rem;
+}
+
+header {
+  background-color: #259f95;
+  display: block;
+  padding: 1.5em;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #1e7c74;
+}
+
+footer {
+  background-color: #259f95;
+  display: block;
+  padding: 1.5em;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #1e7c74;
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
